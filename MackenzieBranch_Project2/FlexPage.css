@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   CSS Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*---------------BEGIN STYLSHEET---------------*/
+
+/*--------Body Style--------*/
+
+body {
+    background-color: #4e3f30;
+    font-family: 'Roboto', sans-serif;
+}
+
+#blog {
+    background-image: url("blogBg.jpg");
+}
+
+#container {
+    overflow: hidden;
+}
+
+#feature, footer {
+    background-color: #f8f4e4;
+}
+
+#feature>article>h2 {
+    background-color: #4e3f30;
+}
+
+h1, nav {
+    background-color: #0ca5b0;
+}
+
+h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-top: 1px solid #4e3f30;
+}
+ol {
+    list-style-type:none; 
+}
+ul>li {
+	list-style-type: none;
+    display: inline;
+}
+#wrapper {
+    background-color: #a5b3aa;
+}
+
+
+/*--------Flex Grid Styles--------*/
+
+#blog {
+    width: 89.63414634%; /*735/820*/
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+#feature {
+    width: 58.53658536%; /*480/820*/
+    margin: 2.5% auto;
+}
+
+#feature>article>h2 {
+    width: 67.708333%; /*325/480*/
+    padding: 1%;
+}
+
+#feature>article>p {
+    width: 93.75%; /*450/480*/
+    margin: 2.083333% 4.166666%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.featureimg {
+    width: 100%;
+    position: relative;
+}
+
+figure {
+    width: 32.18390804%; /*140/435*/
+    float: right;
+    margin: 1%;
+}
+
+.figimg {
+    max-width: 100%;
+}
+
+footer {
+    width: 89.63414634%; /*735/820*/
+    margin: 4.166666% auto 4.166666% auto;
+    padding: 1%;
+}
+
+h1 {
+    width: 113.60544217%; /*835/735*/
+    height: 6.80272108%; /*50/735*/
+    margin-left:-5.78231292%; /*45.2/735*/
+    padding-left: 5.78231292%; /*45.2/735*/
+}
+
+h2 {
+    padding-bottom: 1%;
+}
+
+.logo {
+    width: 26.82926829%; /*220/820*/
+    height: 26.82926829%; /*220/820*/
+    margin: -1.82926829% 36.58536585% 2.5% 36.58536585%; /*15/820, 300/820*/
+}
+
+#main_content {
+    width: 58.50340136%; /*430/735*/
+    float: left;
+    padding: 2%;
+}
+
+nav {
+    margin-left: -2.43902439%; /*20/820*/
+    margin-right: -2.43902439%; /*20/820*/
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+ol>li>p{
+    margin-left: 5%;
+    }
+    
+#sidebar {
+    width: 29.93197278%; /*220/735*/
+    float: right;
+    padding: 2%;
+}
+
+ul>li {
+    margin: 0 5.23255813%; /*45/860*/
+    padding: 2% auto;
+}
+
+#wrapper {
+    width: 80.39215686%; /*820/1020*/
+    margin: 2.81690140% auto 0 auto; /*40/1420*/
+}
+
+/*--------Typographic Styles--------*/
+
+#feature>article>h2 {
+    color: #e3eddf;
+    font-size: 1.5em;
+}
+
+figure {
+    font-size: .75em;
+}
+
+
+footer {
+    color: #4e3f30;
+    text-align: center;
+    font-style: italic;
+    font-size: .80em;
+}
+
+h1 {
+    color: #e3eddf;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+header {
+    background-color: #e3eddf;
+}
+
+#main_content, #sidebar {
+    color: #4e3f30;
+}
+
+ol>li>p{
+    font-style: italic;
+    color: #0ca5b0;
+    }
+
+ul>li {
+    color: #e3eddf;
+    font-size: 1em;
+}

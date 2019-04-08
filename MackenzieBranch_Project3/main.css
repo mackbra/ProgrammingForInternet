@@ -1,0 +1,293 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+  CSS Reset
+*/
+ol,ul { list-style:none; }
+      
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*----------Main Wrapper-------*/
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/*------Link Styles---------*/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+  }
+
+a:hover{
+    font-style: italic;
+}
+
+ol>li>a:hover{
+    opacity: 0.5;
+}
+
+/* Hide content belonging in the "large" div */
+.large {
+    display: none;
+}
+
+/*------------Heading--------------*/
+
+
+header {
+    background-color: #a8ffa3;
+    padding-bottom: 3%;
+}
+
+div.logo {
+    width: 33%;
+    height: 33%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.logo>img {
+    margin-top: 5%;
+    border: 3px outset #cecbca;
+}
+
+nav {
+    background-color: #d6ffa3 ;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    margin-top: -5%;
+    margin-left: -5%;
+    margin-right: -5%;
+    font-size: .75em;
+}
+
+nav>ul>li {
+    display: inline;
+    list-style: none;
+    padding: 3%;
+}
+
+img {
+    width: 100%;
+}
+
+/*-------------Feature-----------*/
+
+.feature {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    font-size: 1.5em;
+    margin-left: 2%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.title-section {
+    position: relative;
+    z-index: 99;
+    margin-left: -2%;
+    margin-right: 2%;
+    margin-bottom: -5%;
+    background-color: #a3ffcc;
+}
+
+
+.title-section>p {
+    margin-left: 8%;
+}
+
+
+
+/*------------Blog Section--------------*/
+
+h2 {
+    font-weight: bold;
+}
+.blog {
+    background-image: url("blog-bg.png");
+    width: 100%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    
+}
+
+.blog>img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: -5%;
+    height: 50%;  
+}
+
+.main-content {   
+    width: 100%;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.main-content>p {
+    margin: 2% 0;
+    padding: 0% 2%;
+    font-size: .75em;
+}
+
+.side-content {
+    background-color: #cecbca; 
+    width: 100%;
+    padding: 2%;
+}
+
+.side-content>ol>li {
+    display: inline;
+    list-style: none;
+}
+
+
+.side-content>ol>li>a>img {
+    width: 48px;
+    height: 48px;
+    padding: 20px;
+}
+
+
+/*------------Meet The Creators--------------*/
+
+.clear {
+    clear: both;
+}
+
+h3 {
+    position: relative;
+    background-color: #a3ffcc;
+    margin-left: -2%;
+    margin-right: 2%;
+    margin-bottom: -2%;
+    z-index: 99;
+    font-weight: bold;
+}
+
+.about-section {
+    background-color: #cecbca;
+    margin-bottom: 5%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.robyn, .lauren {
+
+    width: 48%;
+    height: auto;
+}
+
+.robyn {
+    float: left;
+    background-color: #cecbca;
+}
+
+.lauren {
+    background-color: #cecbca;
+    float: right;
+}
+
+.robyn>figure, .lauren>figure {
+
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10%;
+}
+
+.robyn>figure>a>img, .lauren>figure>a>img{
+    border-radius: 50%;
+}
+
+figcaption {
+    float: right;
+    margin-bottom: 5%;
+}
+
+figcaption>img {
+    width: 15%;
+    margin-left: -20%;
+    float: inline;
+}
+
+
+footer {
+    font-family: 'Catamaran', sans-serif;
+    font-size: .75em;
+    margin: 0% auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
